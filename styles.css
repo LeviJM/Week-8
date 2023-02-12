@@ -1,0 +1,136 @@
+html {
+    background-color: maroon;
+    color: antiquewhite;
+    text-align: center;
+
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+
+#navbar {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Verdana, Tahoma, sans-serif;
+    background-color: antiquewhite;
+    height: 135px;
+
+}
+
+.logo {
+    float: left;
+    margin-left: 2.5%;
+    margin-top: 2px;
+    border-style: none;
+}
+
+.greeting {
+    float: left;
+    margin-left: 4%;
+    margin-bottom: auto;
+    margin-top: auto;
+    color: maroon;
+    font-size: 35px;
+    line-height: 135px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 2.5%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 135px;
+    margin: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    line-height: 135px;
+    font-size: 20px;
+    color: maroon;
+}
+
+li a.active,a:hover {
+    transition: 2s;
+}
+
+li a:hover {
+    background-color:rgb(142, 136, 136);
+}
+
+img {
+    border-style: solid;
+    border-width: 10px;
+    color: antiquewhite;
+}
+
+nav img {
+    border-style: none;
+    background-color: transparent;
+    color: transparent;
+}
+
+
+.heading {
+    border-style: solid;
+    margin-left: 35%;
+    margin-right: 35%;
+    background-color: antiquewhite;
+    color: maroon;
+}
+
+.titles {
+    border-style: solid;
+    margin-left: 40%;
+    margin-right: 40%;
+    background-color: antiquewhite;
+    color: maroon;
+}
+
+h4 {
+    margin-left: 45%;
+    margin-right: 45%;
+    background-color: antiquewhite;
+    color: maroon;
+}
+
+.album ol{
+    border-style: solid;
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+    background-color: antiquewhite;
+    color: maroon;
+}
+
+.album li:nth-child(even) {
+    background-color: lightcoral;
+}
+
+.text {
+    background-color: antiquewhite;
+    color: maroon;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+
+
+
+.pic {
+    float: left;
+    margin: 2%;
+    background-color: antiquewhite;
+    color: maroon;
+}
